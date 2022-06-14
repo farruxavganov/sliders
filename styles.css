@@ -61,6 +61,7 @@ button:active {
     color: #fff;
 }
 
+/*
 .slide:nth-child(1){
     left: 0;
 }
@@ -73,8 +74,10 @@ button:active {
 .slide:nth-child(4){
     left: 300%;
 }
+*/
 
 .slide {
+    transition: all .5s ease;
     transform: translateX(0%);
 }
 
